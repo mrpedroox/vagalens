@@ -1,0 +1,18 @@
+Backend Developer Intern (Python)
+Company: Example Systems (fictional)
+Location: Remote (Brazil)
+
+About the role:
+You will help build and maintain internal REST APIs used by our logistics team.
+
+Requirements:
+- Currently enrolled in Computer Science or a related course.
+- Solid knowledge of Python.
+- Familiarity with REST APIs (FastAPI, Flask or Django).
+- Basic SQL.
+- Git.
+
+Nice to have:
+- Docker.
+- Automated tests with pytest.
+- Experience with cloud deployments (AWS or GCP).
