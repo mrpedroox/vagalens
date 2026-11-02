@@ -1,0 +1,26 @@
+# Language of the postings and of the generated letters.
+language: pt-BR
+
+llm:
+  provider: ollama            # ollama | api
+  model: qwen2.5:7b
+  base_url: http://localhost:11434
+
+embeddings:
+  model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+
+chunking:
+  size: 400                   # tokens
+  overlap: 40                 # tokens (~10%)
+
+retrieval:
+  k: 5
+
+screening:
+  score_threshold: 6.0        # letters are only drafted at or above this score
+
+paths:
+  profile_dir: data/profile
+  jobs_dir: data/jobs
+  vectorstore_dir: data/vectorstore
+  db_path: data/vagalens.db
